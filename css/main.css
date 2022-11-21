@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+
+  text-align: center;
+  background-color: #191a19;
+  color: #eeeeee;
+}
+#titulo {
+    color: #d8e9a8;
+}
+.botao {
+  margin: 20px 0px;
+  padding: 5px 15px;
+  border: 1px solid #d8e9a8;
+  background-color: #d8e9a8;
+  color: #191a19;
+  border-radius: 1px;
+  font-weight: 500;
+}
+.botao:hover {
+    background-color: #191a19;
+    color: #d8e9a8;
+    transition: 0.3s;
+    cursor: pointer;
+}
